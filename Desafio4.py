@@ -5,7 +5,7 @@ activar = True
 def ano_bisiesto(param):
     if param%4 == 0:
         if param%100 != 0:
-            print('Es un Año Bisiesto!!!')
+            print(f'El año {param} es Bisiesto')
         elif param%100 == 0 and param%400 == 0:
             print(f'El año {param} es Bisiesto')
         else:
