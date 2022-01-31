@@ -7,11 +7,11 @@ def ano_bisiesto(param):
         if param%100 != 0:
             print('Es un Año Bisiesto!!!')
         elif param%100 == 0 and param%400 == 0:
-            print('Es un Año Bisiesto!!!')
+            print(f'El año {param} es Bisiesto')
         else:
-            print('NO es un Año Bisiesto')
+            print(f'El año {param} NO es Bisiesto')
     else:
-        print('NO es un Año Bisiesto')
+        print(f'El año {param} NO es Bisiesto')
 
 while activar:
     try:
